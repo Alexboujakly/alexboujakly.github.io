@@ -1,0 +1,60 @@
+body{
+    background: #111;
+    margin: 0;
+}
+
+h2{
+    color:fff;
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 4em
+    font-family: Mountains of christmas ;
+    text-shadow: 0px opx 8px rgba(255,65,185,1);
+
+    background: chartreuse;
+}
+
+#wire{
+    text-align: center;
+    white-space: nowrap;
+    position: abslute;
+    padding: 0;
+    width: 100%;
+    top: -80px;
+    border-bottom: 3px solid #222;
+    height: 100px;
+
+}
+
+#wire li{
+    position: relative;
+    list-style: none:
+    margin:0 15px;
+    padding: 0;
+    display: inline-block;
+    width: 15px
+    height: 30px;
+    border-radius: 50%;
+   top: 102px;
+    background: #fff;
+    /* animaton stuff here */
+    animation-name: even-flash;
+    animation-duration: 1s;
+    animation-interation-count: infinite
+    animation-fill-mode: both;
+}
+
+@keyframes even-flash{
+    0%, 100%{
+        background: rgba(255,230,65,1);
+        box-shadow: 0px 2px 20px 4px rgba(255,230,65,0,1);
+    }
+ 50%{
+    background: rgba(255,230,65,0.5);
+    box-shadow: 0px 2px 20px 4px rgba(255,230,65,0.3)
+ }
+}
+
+
