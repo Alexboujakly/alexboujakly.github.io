@@ -1,29 +1,53 @@
-<!DOCOTYPE html>
-
+<!DOCTYPE html>
 <html>
-<head> 
-<title> Om mig själv</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
 
-<link rel="stylesheet" href="./style.css">
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
 </head>
 <body>
-<h1> Om mig själv- Alex Boujakly
-    <h2>Bakgrund</h2>
-    Jag heter Alex boujakly och är 17 år gammal och pluggar i NTI gymnasiet i teknik linjen, jag e född i sverige i södertälje men ursprugligen från libanon. <br> Fritiden så gillar jag att spela ps 4 och vara med vänner. 
- <h2>Tankar om framtiden</h2>
- <p> Min tanke om framtiden är att plugga till en byggingenjör, efter de så ska jag arbeta som byggnadsingenjör, Efter min utbildning så ska jag skapa en familj och sedan på börja ett stort företag.   </p>
-<ul>
-    <h2> Mina favorit spel</h2>
-    <li> GTA </li>
-    <li> The crew</li>
-    <li>Euro truck simulator</li>
 
+<ul class="topnav">
+  <li><a class="active" href="#Om mig sida">Om mig sida</a></li>
+  <li><a class="Om oss sida" href="#Om oss sida">Om oss sida</a></li> 
+  <li><a href="#Lagar och regler">Lagar och regler</a></li>
+  <li><a href="#God jul">God jul</a></li>
+  <li class="Internet historia"><a href="#Internet historia">Internet historia</a></li>
 </ul>
- <img src="insta.jpg" alt="Alex" />
 
- <form action="https://www.ntigymnasiet.se/">
-<input type="submit" value="NTI gymnasiet"/>
-</form>
+<div style="padding:0 16px;">
+</h4>
+</div>
 
 </body>
 </html>
